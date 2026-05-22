@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+models/saved/
+data/processed/
+.ipynb_checkpoints/
+.pytest_cache/
+*.pkl
+*.pt
+*.npy
