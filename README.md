@@ -1,4 +1,4 @@
-# 💧 Borehole & Water Point Failure Prediction — Rural Nigeria
+# Borehole & Water Point Failure Prediction, Rural Nigeria
 
 > LSTM autoencoder predictive maintenance system for Nigeria's 150,000+ rural boreholes. Forecasts pump failure 30 days ahead from IoT telemetry (motor current, vibration, pressure, water table depth), dispatches maintenance work orders via SMS before communities lose access to water.
 
@@ -11,7 +11,7 @@
 
 ## The Problem
 
-Nigeria has over **150,000 rural water points**. UNICEF estimates **40% are non-functional** at any given time. When a borehole fails, communities — overwhelmingly women and children — walk 5+ kilometres to alternative water sources that are often contaminated. Maintenance is **entirely reactive**: a technician is dispatched only after the pump fails. The pump fails on a Tuesday. RUWASA hears about it Thursday. The technician arrives in two weeks. The community drinks surface water for two weeks.
+Nigeria has over **150,000 rural water points**. UNICEF estimates **40% are non-functional** at any given time. When a borehole fails, communities, overwhelmingly women and children, walk 5+ kilometres to alternative water sources that are often contaminated. Maintenance is **entirely reactive**: a technician is dispatched only after the pump fails. The pump fails on a Tuesday. RUWASA hears about it Thursday. The technician arrives in two weeks. The community drinks surface water for two weeks.
 
 This is a preventable public health crisis.
 
@@ -19,7 +19,7 @@ This is a preventable public health crisis.
 
 ## Solution
 
-Deploy low-cost IoT sensors on borehole pumps. Build an LSTM autoencoder that learns healthy pump behaviour. When reconstruction error rises above threshold — bearing wear, voltage anomalies, water table drop, vibration signature changes — the system predicts failure 30 days ahead and auto-dispatches a maintenance work order to the nearest RUWASA technician via SMS.
+Deploy low-cost IoT sensors on borehole pumps. Build an LSTM autoencoder that learns healthy pump behaviour. When reconstruction error rises above threshold, bearing wear, voltage anomalies, water table drop, vibration signature changes, the system predicts failure 30 days ahead and auto-dispatches a maintenance work order to the nearest RUWASA technician via SMS.
 
 ---
 
@@ -34,7 +34,7 @@ Deploy low-cost IoT sensors on borehole pumps. Build an LSTM autoencoder that le
 | Water level sensor | Groundwater table depth | ~$15 |
 | Raspberry Pi + GSM | Edge processing + 15-min transmission | ~$45 |
 
-**Total per borehole: ~$104** — justified against $2,000+ emergency repair + $15,000+ community health cost.
+**Total per borehole: ~$104**, justified against $2,000+ emergency repair + $15,000+ community health cost.
 
 ---
 
